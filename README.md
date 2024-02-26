@@ -13,7 +13,7 @@ I designed this Creative Digital Agency Website as part of my frontend practice,
 - [Credits](#credits)
 - [License](#license)
 
-![Creative Digital Agency Website Screenshot](assets/images/deafblind-thumbnail.png)
+![Creative Digital Agency Website Screenshot](assets/images/creative-digital-agency-thumbnail.png)
 
 ## Installation
 
@@ -32,7 +32,7 @@ To run this project locally, follow these steps:
 
 Explore the Creative Digital Agency Website:
 
-1. Open the [live demo](https://deafblind.vercel.app/) or run it locally.
+1. Open the [live demo](https://creative-digital-agency-six.vercel.app/) or run it locally.
 
 2. Navigate through the blog posts and discover valuable resources for the DeafBlind community.
 
