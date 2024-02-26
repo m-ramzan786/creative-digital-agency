@@ -1,0 +1,199 @@
+@media (max-width: 1150px) {
+  .news_container {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    -ms-grid-rows: auto auto auto auto;
+        grid-template-rows: auto auto auto auto;
+  }
+  .news1 {
+    -webkit-box-ordinal-group: 1;
+        -ms-flex-order: 0;
+            order: 0;
+  }
+  .news1_img {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+  .news2 {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+  .news2_img {
+    -webkit-box-ordinal-group: 4;
+        -ms-flex-order: 3;
+            order: 3;
+  }
+  .blog:nth-child(1) p {
+    margin-bottom: 2rem;
+  }
+}
+@media (max-width: 1000px) {
+  nav {
+    padding: 0 20px;
+    padding-top: 1rem;
+  }
+  nav ul li {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 0 auto;
+    border-radius: 25px;
+  }
+  .links-container {
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    top: 76px;
+    right: 0;
+    z-index: 20;
+    background: rgba(0, 0, 0, 0.7);
+    overflow: hidden;
+  }
+  .links-container ul li:hover {
+    background-color: rgba(173, 173, 173, 0.9);
+  }
+  .links-container ul li a:hover {
+    color: var(--primary-color);
+  }
+  .toggle_btn {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    display: block;
+    cursor: pointer;
+  }
+  .links-container ul li,
+  a {
+    line-height: 10px;
+    margin-top: 10px;
+  }
+  .links-container.open {
+    display: block;
+  }
+  .social-icons li {
+    display: inline-block;
+    margin: 0 3vw;
+  }
+  .social-icons {
+    text-align: center;
+    padding-bottom: 10px;
+    background-color: rgba(173, 173, 173, 0.9);
+    margin-top: 10px;
+  }
+  .social-icons li a::after {
+    display: none;
+  }
+  .social-icons li a {
+    color: var(--black-color);
+  }
+  nav.sticky .social-icons li a {
+    color: var(--black-color);
+  }
+  nav.sticky .social-icons li a:hover {
+    color: var(--primary-color);
+  }
+  nav ul li a:after {
+    margin-top: 10px;
+  }
+  .logo {
+    width: 60px;
+  }
+  .hero-heading h4 {
+    width: clamp(280px, 40vw, 4rem);
+    text-align: center;
+  }
+}
+@media (max-width: 880px) {
+  .feature {
+    height: auto;
+    padding: 100px 5% 100px 5%;
+  }
+  .blog:nth-child(1) p,
+  .blog:nth-child(2) p,
+  .blog:nth-child(3) p {
+    margin-bottom: 2rem;
+  }
+  .key_feature {
+    height: auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 2rem;
+    padding: 5% 0;
+  }
+  .key_left {
+    width: 100%;
+  }
+  .key_right {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .key_right img {
+    width: 90%;
+    max-width: 80%;
+  }
+  .contact_us {
+    height: auto;
+    padding: 55px;
+  }
+  .c_container h3 {
+    text-align: center;
+    font-size: clamp(16px, 2.5vw, 2.5rem);
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .input_container1 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    row-gap: 20px;
+    width: 100%;
+  }
+  .input_container2 {
+    width: 100%;
+  }
+  .input_container1 input {
+    width: 100%;
+  }
+  footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+    padding: 0 5%;
+  }
+}
+@media (max-width: 768px) {
+.quick_container {
+  height: auto;
+  }
+}
+@media (max-width: 555px) {
+  .quick {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    row-gap: 15px;
+  }
+  .quick p {
+    text-align: center;
+  }
+}
