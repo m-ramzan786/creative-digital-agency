@@ -21,7 +21,7 @@ To run this project locally, follow these steps:
 
 1. Clone the repository to your local machine.
     ```bash
-    git clone https://github.com/m-ramzan786/creative-digital-agency.git
+    git clone https://github.com/ramzancodeclub/creative-digital-agency.git
     ```
 
 2. Open the project folder in your code editor.
@@ -56,7 +56,7 @@ Explore the Creative Digital Agency Website:
 
 ## Credits
 
-- [Muhammad Ramzan](https://github.com/m-ramzan786) - Project Creator
+- [Muhammad Ramzan](https://github.com/ramzancodeclub) - Project Creator
 
 ## License
 
@@ -66,8 +66,8 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Badges
 
-![GitHub top language](https://img.shields.io/github/languages/top/m-ramzan786/creative-digital-agency)
-![GitHub license](https://img.shields.io/github/license/m-ramzan786/creative-digital-agency)
+![GitHub top language](https://img.shields.io/github/languages/top/ramzancodeclub/creative-digital-agency)
+![GitHub license](https://img.shields.io/github/license/ramzancodeclub/creative-digital-agency)
 
 ## How to Contribute
 
